@@ -76,7 +76,11 @@ function calendar() {
       x.setAttribute("placeholder", "Coming time");
       x.style.backgroundColor = "green";
       col.append(x);
-    } else if (m.format("H") < m.format(`${time[c]}`)){
+    } else if ([1, 2, 3, 4, 5].includes(time[c]) && (m.format("H") > time[c])) {
+      x.setAttribute("placeholder", "Coming time");
+      x.style.backgroundColor = "green";
+      col.append(x);
+    } else {
       x.setAttribute("placeholder", "Passed time");
       x.style.backgroundColor = "silver";
       col.append(x);
