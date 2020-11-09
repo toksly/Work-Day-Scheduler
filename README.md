@@ -8,6 +8,7 @@ The name of this app is <i>Work Day Scheduler</i> it is designed to help the use
 This application allows the user to be able  to add important events to his or her daily planner. The app runs in the brower and with the help of HTML and  CSS that is powered by jQuery 
 
 <strong>screen shot</strong>
+![Screen Shot 2020-11-09 at 9 46 10 AM](https://user-images.githubusercontent.com/71090500/98595824-240ce700-229c-11eb-9401-2d44523f87c0.png)
 
 <strong>Installation</strong>
 
