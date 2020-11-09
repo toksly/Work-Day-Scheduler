@@ -60,6 +60,7 @@ function calendar() {
         return "[AM]";
       }
     };
+
     let timeat = m.format(`${time[c]} ${period()}`).toString();
     timeX.append(timeat);
 
@@ -67,15 +68,15 @@ function calendar() {
     let x = document.createElement("INPUT");
     x.setAttribute("type", "text");
     x.setAttribute("class", `input${time[c]}`);
-    if (timeat == m.format("H [AM]").toString()) {
+    if (timeat === m.format("H [AM]").toString()) {
       x.setAttribute("placeholder", "Current time");
       x.style.backgroundColor = "red";
       col.append(x);
-    } else if (m.format("H") < m.format(`0${time[c]}`)) {
+    } else if (m.format("H") < time[c]) {
       x.setAttribute("placeholder", "Coming time");
       x.style.backgroundColor = "green";
       col.append(x);
-    } else {
+    } else if (m.format("H") < m.format(`${time[c]}`)){
       x.setAttribute("placeholder", "Passed time");
       x.style.backgroundColor = "silver";
       col.append(x);
