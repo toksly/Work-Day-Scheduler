@@ -1,11 +1,13 @@
 # Work-day-Scheduler
-<strong> Code-quiz </strong>
+<strong> Work day scheduler</strong>
 
-The name of this app is <i>Work Day Scheduler</i> it is designed to help the user to save events for each hour of the day. 
+The name of this app is <i>Work Day Scheduler</i> it is designed to help the user to save events for each working hour of the day, from 9am to 5pm. 
 
 <strong>Description</strong>
 
 This application allows the user to be able  to add important events to his or her daily planner. The app runs in the brower and with the help of HTML and  CSS that is powered by jQuery 
+
+<strong>screen shot</strong>
 
 <strong>Installation</strong>
 
