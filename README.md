@@ -1,22 +1,65 @@
 # Work-day-Scheduler
-<strong> Work day scheduler</strong>
+![Screenshot of tech-blog](images/screenShot.png)
 
-The name of this app is <i>Work Day Scheduler</i> it is designed to help the user to save events for each working hour of the day, from 9am to 5pm. 
+## Description
 
-<strong>Description</strong>
+This application allows the user to be able  to add important events to his or her daily planner. it is designed to help the user save events for each working hour of the day, from 9am to 5pm. 
 
-This application allows the user to be able  to add important events to his or her daily planner. The app runs in the brower and with the help of HTML and  CSS that is powered by jQuery 
+## Table of Contents
 
-<strong>screen shot</strong>
+- [Website](#website)
+- [Built with](#built-with)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [Acknowledgements](#acknowledgements)
 
-<strong>Installation</strong>
+---
 
-This project does  not need any installation,rather it is currently hosted on github, which can be accessed using by clicking on the link below 
+## Website
+
 https://toksly.github.io/Work-day-Scheduler/
 
-<strong>Usage</strong>
+---
 
-The app is simple and easy to use. It allows the user to be able to use his/her daily planner to create a schedule. The app displays current day at the top of the calender when it is opened. When scrolled down, it displays timeblocks, and each of these time blocks are color coded thereby helping user know wheather it is in the past,present or in the future. Clicking on a timeblock allows the user to be able to enter an event, while clicking on the save button (padlock image) for that timeblock saves any text for that event in the local staorage.
+## Built with
 
-<strong>Resources used</strong>
-[Moment.js](https://momentjs.com/) library 
+- Javascript
+- HTML
+- CSS
+
+
+
+[Back to Table of Contents](#table-of-contents)
+
+---
+
+## Usage
+
+ This application allows the user to use a daily planner to create a schedule. The application displays current day at the top of the calender when it is opened. When scrolled down, it displays timeblocks, and each of these time blocks are color coded thereby helping user know wheather it is in the past,present or in the future. Clicking on a timeblock allows the user to be able to enter an event, while clicking on the save button (padlock image) for that timeblock saves any text for that event in the local staorage.
+[Back to Table of contrents](#table-of-contents)
+
+---
+
+## Contributors
+
+---
+---
+
+Sylvester Nwizu
+
+---
+---
+
+[Back to Table of Contents](#table-of-contents)
+
+---
+
+## Acknowledgements
+
+- [jQuery](https://jquery.com/)
+- [moment.js](https://momentjs.com/)
+---
+
+[Back to table of Contents](#table-of-contents)
+
+
