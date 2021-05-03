@@ -59,6 +59,7 @@ Sylvester Nwizu
 
 - [jQuery](https://jquery.com/)
 - [moment.js](https://momentjs.com/)
+- [bootstrap](https://stackpath.bootstrapcdn.com/)
 
 ---
 
