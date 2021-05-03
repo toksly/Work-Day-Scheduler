@@ -1,5 +1,5 @@
 # Work-day-Scheduler
-![Screenshot of tech-blog](images/screenShot.png)
+![Screenshot of Work-day-scheduler](images/screenShot.png)
 
 ## Description
 
